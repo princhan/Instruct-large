@@ -10,10 +10,10 @@ tags:
 ---
 
 # hkunlp/instructor-large
-This is a general embedding model: It maps **any** piece of text (e.g., a title, a sentence, a document, etc.) to a fixed-length vector in test time **without further training**. With instructions, the embeddings are **domain-specific** (e.g., specialized for science, finance, etc.) and **task-aware** (e.g., customized for classification, information retrieval, etc.)
-
+We introduce **Instructor**👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) ***by simply providing the task instruction, without any finetuning***. **Instructor**👨‍ achieves sota on 70 diverse embedding tasks!
 The model is easy to use with `sentence-transformer` library.
 
+# Quick start
 ## Installation
 ```bash
 git clone https://github.com/HKUNLP/instructor-embedding
@@ -31,6 +31,16 @@ model = SentenceTransformer('hkunlp/instructor-large')
 embeddings = model.encode([[instruction,sentence,0]])
 print(embeddings)
 ```
+
+# Use cases
+We provide a few specific use cases in the following. For more examples and applications, refer to [our paper](https://arxiv.org/abs/2212.09741)
+## Calculate embeddings for your customized texts
+If you want to calculate customized embeddings for specific sentences, you may follow the unified template to write instructions: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Represent the `domain` `text_type` for `task_objective`; Input:
+* `domain` is optional, and it specifies the domain of the text, e.g., science, finance, medicine, etc.
+* `text_type` is required, and it specifies the encoding unit, e.g., sentence, document, paragraph, etc.
+* `task_objective` is optional, and it specifies the objective of emebdding, e.g., retrieve a document, classify the sentence, etc.
 
 ## Calculate Sentence similarities
 You can further use the model to compute similarities between two groups of sentences, with **customized embeddings**.
