@@ -9,7 +9,7 @@ tags:
 - transformers
 ---
 
-# hku-nlp/instructor-large
+# hkunlp/instructor-large
 This is a general embedding model: It maps **any** piece of text (e.g., a title, a sentence, a document, etc.) to a fixed-length vector in test time **without further training**. With instructions, the embeddings are **domain-specific** (e.g., specialized for science, finance, etc.) and **task-aware** (e.g., customized for classification, information retrieval, etc.)
 
 The model is easy to use with `sentence-transformer` library.
@@ -27,7 +27,7 @@ Then you can use the model like this to calculate domain-specific and task-aware
 from sentence_transformers import SentenceTransformer
 sentence = "3D ActionSLAM: wearable person tracking in multi-floor environments"
 instruction = "Represent the Science title; Input:"
-model = SentenceTransformer('hku-nlp/instructor-large')
+model = SentenceTransformer('hkunlp/instructor-large')
 embeddings = model.encode([[instruction,sentence,0]])
 print(embeddings)
 ```
