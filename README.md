@@ -13,7 +13,9 @@ tags:
 We introduce **Instructor**👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) ***by simply providing the task instruction, without any finetuning***. Instructor👨‍ achieves sota on 70 diverse embedding tasks!
 The model is easy to use with `sentence-transformer` library.
 
-# Quick start
+## Quick start
+<hr />
+
 ## Installation
 ```bash
 git clone https://github.com/HKUNLP/instructor-embedding
@@ -32,7 +34,8 @@ embeddings = model.encode([[instruction,sentence,0]])
 print(embeddings)
 ```
 
-# Use cases
+## Use cases
+<hr />
 We provide a few specific use cases in the following. For more examples and applications, refer to [our paper](https://arxiv.org/abs/2212.09741)
 ## Calculate embeddings for your customized texts
 If you want to calculate customized embeddings for specific sentences, you may follow the unified template to write instructions: 
