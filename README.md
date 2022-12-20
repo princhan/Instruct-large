@@ -36,7 +36,7 @@ print(embeddings)
 
 ## Use cases
 <hr />
-We provide a few specific use cases in the following. For more examples and applications, refer to [our paper](https://arxiv.org/abs/2212.09741)
+
 ## Calculate embeddings for your customized texts
 If you want to calculate customized embeddings for specific sentences, you may follow the unified template to write instructions: 
 
