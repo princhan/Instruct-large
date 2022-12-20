@@ -61,3 +61,19 @@ similarities = cosine_similarity(query_embeddings,corpus_embeddings)
 retrieved_doc_id = np.argmax(similarities)
 print(retrieved_doc_id)
 ```
+
+## Clustering
+Use **customized embeddings** for clustering texts in groups.
+```python
+import sklearn
+sentences = [['Represent the Medicine sentence for clustering; Input: ','Dynamical Scalar Degree of Freedom in Horava-Lifshitz Gravity', 0],
+             ['Represent the Medicine sentence for clustering; Input: ','Comparison of Atmospheric Neutrino Flux Calculations at Low Energies', 0],
+             ['Represent the Medicine sentence for clustering; Input: ','Fermion Bags in the Massive Gross-Neveu Model', 0],
+             ['Represent the Medicine sentence for clustering; Input: ',"QCD corrections to Associated t-tbar-H production at the Tevatron",0],
+             ['Represent the Medicine sentence for clustering; Input: ','A New Analysis of the R Measurements: Resonance Parameters of the Higher,  Vector States of Charmonium',0]]
+embeddings = model.encode(sentences)
+clustering_model = sklearn.cluster.MiniBatchKMeans(n_clusters=2)
+clustering_model.fit(embeddings)
+cluster_assignment = clustering_model.labels_
+print(cluster_assignment)
+```
