@@ -11,7 +11,7 @@ tags:
 
 # hkunlp/instructor-large
 We introduce **Instructor**👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) ***by simply providing the task instruction, without any finetuning***. Instructor👨‍ achieves sota on 70 diverse embedding tasks!
-The model is easy to use with `sentence-transformer` library.
+The model is easy to use with the `sentence-transformer` library.
 
 ## Quick start
 <hr />
@@ -43,7 +43,7 @@ If you want to calculate customized embeddings for specific sentences, you may f
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Represent the `domain` `text_type` for `task_objective`; Input:
 * `domain` is optional, and it specifies the domain of the text, e.g., science, finance, medicine, etc.
 * `text_type` is required, and it specifies the encoding unit, e.g., sentence, document, paragraph, etc.
-* `task_objective` is optional, and it specifies the objective of emebdding, e.g., retrieve a document, classify the sentence, etc.
+* `task_objective` is optional, and it specifies the objective of embedding, e.g., retrieve a document, classify the sentence, etc.
 
 ## Calculate Sentence similarities
 You can further use the model to compute similarities between two groups of sentences, with **customized embeddings**.
