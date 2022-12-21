@@ -1,5 +1,6 @@
 ---
 language: en
+inference: false
 license: apache-2.0
 tags:
 - sentence-transformers
