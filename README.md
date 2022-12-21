@@ -11,7 +11,7 @@ tags:
 
 # hkunlp/instructor-large
 We introduce **Instructor**👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) ***by simply providing the task instruction, without any finetuning***. Instructor👨‍ achieves sota on 70 diverse embedding tasks!
-The model is easy to use with the `sentence-transformer` library.
+The model is easy to use with **our customized** `sentence-transformer` library.
 
 ## Quick start
 <hr />
