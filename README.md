@@ -19,6 +19,7 @@ The model is easy to use with **our customized** `sentence-transformer` library.
 ## Installation
 ```bash
 git clone https://github.com/HKUNLP/instructor-embedding
+cd instructor-embedding
 cd sentence-transformers
 pip install -e .
 ```
