@@ -7,6 +7,7 @@ tags:
 - feature-extraction
 - sentence-similarity
 - transformers
+- information-retrieval
 ---
 
 # hkunlp/instructor-large
