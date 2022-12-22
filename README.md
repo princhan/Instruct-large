@@ -10,6 +10,21 @@ tags:
 - t5
 - English
 - Sentence Similarity
+- natural_questions
+- ms_marco
+- fever
+- hotpot_qa
+- beir
+- information-retrieval
+- text-classification
+- embeddings
+- language-model
+- text-embedding
+- text-clustering
+- text-semantic-similarity
+- text-evaluation
+- prompt-retrieval
+- text-reranking
 ---
 
 # hkunlp/instructor-large
