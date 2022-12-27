@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "/scratch/acd13578qu/huggingface_models/sentence-transformers_gtr-t5-large/",
+  "_name_or_path": "/scratch/acd13578qu/metatrain_models/enhanced_large/checkpoint-300/",
   "architectures": [
     "T5EncoderModel"
   ],
