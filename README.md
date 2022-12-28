@@ -27,7 +27,7 @@ tags:
 - text-reranking
 - mteb
 model-index:
-- name: replicate-1227-large-full
+- name: INSTRUCTOR
   results:
   - task:
       type: Classification
