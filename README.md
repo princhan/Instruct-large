@@ -3,6 +3,17 @@ language: en
 inference: false
 license: apache-2.0
 tags:
+- text-embedding
+- embeddings
+- information-retrieval
+- beir
+- text-classification
+- language-model
+- text-clustering
+- text-semantic-similarity
+- text-evaluation
+- prompt-retrieval
+- text-reranking
 - sentence-transformers
 - feature-extraction
 - sentence-similarity
@@ -14,17 +25,6 @@ tags:
 - ms_marco
 - fever
 - hotpot_qa
-- beir
-- information-retrieval
-- text-classification
-- embeddings
-- language-model
-- text-embedding
-- text-clustering
-- text-semantic-similarity
-- text-evaluation
-- prompt-retrieval
-- text-reranking
 - mteb
 model-index:
 - name: INSTRUCTOR
