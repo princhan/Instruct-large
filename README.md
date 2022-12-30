@@ -1,5 +1,5 @@
 ---
-pipeline_tag: text-similarity
+pipeline_tag: sentence-similarity
 tags:
 - text-embedding
 - embeddings
