@@ -26,7 +26,6 @@ tags:
 - mteb
 language: en
 inference: false
-license: apache-2.0
 model-index:
 - name: INSTRUCTOR
   results:
@@ -1900,7 +1899,7 @@ model-index:
     - type: map_at_5
       value: 9.149000000000001
     - type: mrr_at_1
-      value: 21.0
+      value: 21
     - type: mrr_at_10
       value: 31.416
     - type: mrr_at_100
@@ -1912,7 +1911,7 @@ model-index:
     - type: mrr_at_5
       value: 29.976999999999997
     - type: ndcg_at_1
-      value: 21.0
+      value: 21
     - type: ndcg_at_10
       value: 18.551000000000002
     - type: ndcg_at_100
@@ -1924,7 +1923,7 @@ model-index:
     - type: ndcg_at_5
       value: 15.204999999999998
     - type: precision_at_1
-      value: 21.0
+      value: 21
     - type: precision_at_10
       value: 9.84
     - type: precision_at_100
@@ -2081,7 +2080,7 @@ model-index:
     - type: map_at_5
       value: 58.272999999999996
     - type: mrr_at_1
-      value: 53.0
+      value: 53
     - type: mrr_at_10
       value: 61.102000000000004
     - type: mrr_at_100
@@ -2093,7 +2092,7 @@ model-index:
     - type: mrr_at_5
       value: 60.128
     - type: ndcg_at_1
-      value: 53.0
+      value: 53
     - type: ndcg_at_10
       value: 64.43100000000001
     - type: ndcg_at_100
@@ -2105,7 +2104,7 @@ model-index:
     - type: ndcg_at_5
       value: 61.888
     - type: precision_at_1
-      value: 53.0
+      value: 53
     - type: precision_at_10
       value: 8.767
     - type: precision_at_100
@@ -2257,7 +2256,7 @@ model-index:
     - type: map_at_5
       value: 0.8019999999999999
     - type: mrr_at_1
-      value: 72.0
+      value: 72
     - type: mrr_at_10
       value: 83.39999999999999
     - type: mrr_at_100
@@ -2269,7 +2268,7 @@ model-index:
     - type: mrr_at_5
       value: 83.06700000000001
     - type: ndcg_at_1
-      value: 66.0
+      value: 66
     - type: ndcg_at_10
       value: 58.059000000000005
     - type: ndcg_at_100
@@ -2281,7 +2280,7 @@ model-index:
     - type: ndcg_at_5
       value: 63.005
     - type: precision_at_1
-      value: 72.0
+      value: 72
     - type: precision_at_10
       value: 61.4
     - type: precision_at_100
@@ -2289,7 +2288,7 @@ model-index:
     - type: precision_at_1000
       value: 19.866
     - type: precision_at_3
-      value: 70.0
+      value: 70
     - type: precision_at_5
       value: 68.8
     - type: recall_at_1
