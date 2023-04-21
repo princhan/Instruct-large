@@ -26,6 +26,7 @@ tags:
 - mteb
 language: en
 inference: false
+license: apache-2.0
 model-index:
 - name: INSTRUCTOR
   results:
